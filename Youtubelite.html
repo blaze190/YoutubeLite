@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Youtube Lite</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="Youtube.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body style="background-color: black">
+    <br><br>
+    <input type="button" class="btn btn-primary col-sm-4"value="Whales" onclick="Videoselect(1);">
+    <input type="button" class="btn btn-primary col-sm-3"value="Underwater" onclick="Videoselect(2);">
+    <input type="button" class="btn btn-primary col-sm-4"value="Johnny Walker Beatles Time" onclick="Videoselect(3);">
+    <br><br><br>
+    <div id="para">
+    <div id="main">
+    <video id="mini-tube" controls="controls" width="1024" poster="imgs/youtube-logo.png">
+        <source id="mp4video" src="" type="video/mp4"/>
+    </video>
+    <div id="title">
+    </div>
+    <div id="user"></div>
+    <div id="time"></div>
+    <div id="description"></div>
+    </div>
+    <br><br><br>
+    <div id="container">
+
+    </div>
+</body>
+<script src="server.js"></script>
+</html>

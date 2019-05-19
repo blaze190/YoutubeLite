@@ -1,0 +1,38 @@
+#mini-tube{
+    display: inline-block;
+    text-align: center;
+};
+#container{
+    margin-right: 20px;
+    font-size: 12px;
+}
+#main{
+    margin-right: 30px;
+    border: 6px;
+    border-color: aliceblue;
+}
+#para{
+    margin-right: 30px;
+    border: 6px;
+    border-color: aliceblue;
+}
+#title{
+    font-size: 30px;
+    
+}
+#user{
+    font-size: 20px;
+    
+}
+#time{
+    font-size: 20px;
+    
+}
+#description{
+    font-size: 16px;
+    
+}
+div{
+    color: white;
+    margin-left: 20px;
+}
